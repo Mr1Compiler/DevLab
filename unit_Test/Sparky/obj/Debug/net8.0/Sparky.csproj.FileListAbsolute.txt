@@ -1,0 +1,12 @@
+/mnt/hdd/DevLab/unit_Test/Sparky/bin/Debug/net8.0/Sparky.deps.json
+/mnt/hdd/DevLab/unit_Test/Sparky/bin/Debug/net8.0/Sparky.dll
+/mnt/hdd/DevLab/unit_Test/Sparky/bin/Debug/net8.0/Sparky.pdb
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/Sparky.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/Sparky.AssemblyInfoInputs.cache
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/Sparky.AssemblyInfo.cs
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/Sparky.csproj.CoreCompileInputs.cache
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/Sparky.sourcelink.json
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/Sparky.dll
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/refint/Sparky.dll
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/Sparky.pdb
+/mnt/hdd/DevLab/unit_Test/Sparky/obj/Debug/net8.0/ref/Sparky.dll
