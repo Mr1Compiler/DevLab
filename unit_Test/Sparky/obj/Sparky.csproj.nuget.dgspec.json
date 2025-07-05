@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/hdd/DevLab/src/playground/playground.csproj": {}
+    "/mnt/hdd/DevLab/unit_Test/Sparky/Sparky.csproj": {}
   },
   "projects": {
-    "/mnt/hdd/DevLab/src/playground/playground.csproj": {
+    "/mnt/hdd/DevLab/unit_Test/Sparky/Sparky.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/hdd/DevLab/src/playground/playground.csproj",
-        "projectName": "playground",
-        "projectPath": "/mnt/hdd/DevLab/src/playground/playground.csproj",
+        "projectUniqueName": "/mnt/hdd/DevLab/unit_Test/Sparky/Sparky.csproj",
+        "projectName": "Sparky",
+        "projectPath": "/mnt/hdd/DevLab/unit_Test/Sparky/Sparky.csproj",
         "packagesPath": "/home/mr1compiler/.nuget/packages/",
-        "outputPath": "/mnt/hdd/DevLab/src/playground/obj/",
+        "outputPath": "/mnt/hdd/DevLab/unit_Test/Sparky/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mr1compiler/.nuget/NuGet/NuGet.Config"
@@ -54,9 +54,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
