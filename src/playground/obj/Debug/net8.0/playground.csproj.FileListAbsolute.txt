@@ -1,6 +1,4 @@
-/mnt/hdd/DevLab/src/playground/bin/Debug/net8.0/playground
 /mnt/hdd/DevLab/src/playground/bin/Debug/net8.0/playground.deps.json
-/mnt/hdd/DevLab/src/playground/bin/Debug/net8.0/playground.runtimeconfig.json
 /mnt/hdd/DevLab/src/playground/bin/Debug/net8.0/playground.dll
 /mnt/hdd/DevLab/src/playground/bin/Debug/net8.0/playground.pdb
 /mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/playground.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,15 +8,8 @@
 /mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/playground.dll
 /mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/refint/playground.dll
 /mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/playground.pdb
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/playground.genruntimeconfig.cache
 /mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/ref/playground.dll
 /mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/playground.sourcelink.json
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/playground.MvcApplicationPartsAssemblyInfo.cache
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/staticwebassets.build.json
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/staticwebassets.development.json
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/staticwebassets/msbuild.playground.Microsoft.AspNetCore.StaticWebAssets.props
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/staticwebassets/msbuild.build.playground.props
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.playground.props
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.playground.props
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/staticwebassets.pack.json
-/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/scopedcss/bundle/playground.styles.css
+/mnt/hdd/DevLab/src/playground/bin/Debug/net8.0/playground
+/mnt/hdd/DevLab/src/playground/bin/Debug/net8.0/playground.runtimeconfig.json
+/mnt/hdd/DevLab/src/playground/obj/Debug/net8.0/playground.genruntimeconfig.cache
