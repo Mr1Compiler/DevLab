@@ -13,3 +13,7 @@
 /mnt/hdd/DevLab/ErrorHandling/obj/Debug/net8.0/ErrorHandling.pdb
 /mnt/hdd/DevLab/ErrorHandling/obj/Debug/net8.0/ErrorHandling.genruntimeconfig.cache
 /mnt/hdd/DevLab/ErrorHandling/obj/Debug/net8.0/ref/ErrorHandling.dll
+/mnt/hdd/DevLab/ErrorHandling/bin/Debug/net8.0/FluentResults.dll
+/mnt/hdd/DevLab/ErrorHandling/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/mnt/hdd/DevLab/ErrorHandling/obj/Debug/net8.0/ErrorHandling.csproj.AssemblyReference.cache
+/mnt/hdd/DevLab/ErrorHandling/obj/Debug/net8.0/ErrorHan.05DFAEDB.Up2Date
