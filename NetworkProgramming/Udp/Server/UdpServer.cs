@@ -19,8 +19,8 @@ namespace Udp.Server;
         {
             byte[] receivedData = udpServer.Receive(ref ipEndPoint); // Receiving the data 
             string data = Encoding.ASCII.GetString(receivedData); // Convert the array byte to string to read it 
-            Console.WriteLine($"--server--\nmsg: {data}\nip: {ipEndPoint.Address}:{ipEndPoint.Port}");
-            byte[] sentData = Encoding.ASCII.GetBytes($"msg: {data}");
+            Console.WriteLine($"--server--\nmsg: {data} --ClientIp: {ipEndPoint.Address}:{ipEndPoint.Port}");
+            byte[] sentData = Encoding.ASCII.GetBytes($"Your message has been received");
             udpServer.Send(sentData, sentData.Length, ipEndPoint);
         }
     }   

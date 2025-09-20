@@ -2,7 +2,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace Udp.Server;
+namespace Udp.Client;
 
 public class Client
 {
@@ -13,12 +13,12 @@ public class Client
         byte[] msgByte = Encoding.ASCII.GetBytes(msg);
         
         // Sending data to the server 
-        client.Send(msgByte, msg.Length, "127.0.0.1", 432);
+        client.Send(msgByte, msg.Length, "127.0.0.1", 4321);
         
         // Receiving the data from the server
         IPEndPoint serverEp = new IPEndPoint(IPAddress.Any, 0);
         byte[] responseBytes = client.Receive(ref serverEp);
         string response = Encoding.ASCII.GetString(responseBytes);
-        Console.WriteLine($"--Client--\n{response}\nServerIp: {serverEp.Address}:{serverEp.Port}");
+        Console.WriteLine($"--Client--\n{response} --ServerIp: {serverEp.Address}:{serverEp.Port}");
     }
 }
