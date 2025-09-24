@@ -7,23 +7,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7754F6A8-E1A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.NET", "ASP.NET", "{EF4F62A8-D04B-41E7-B68A-1EC5554DA924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstApp", "ASP.NET\MyFirstApp\MyFirstApp.csproj", "{D2994AFB-0394-4E31-832F-DAFF4DDD7BE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstApp", "src\ASP.NET\MyFirstApp\MyFirstApp.csproj", "{D2994AFB-0394-4E31-832F-DAFF4DDD7BE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ErrorHandling", "ErrorHandling", "{9EA256AB-843A-4220-8700-9B1952E6ECF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling", "ErrorHandling\ErrorHandling\ErrorHandling.csproj", "{6260CD9A-A3F4-4ECB-814A-E54F1E30B5CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling", "src\ErrorHandling\ErrorHandling\ErrorHandling.csproj", "{6260CD9A-A3F4-4ECB-814A-E54F1E30B5CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSocket", "WebSocket", "{626BE253-3F6F-4761-BDCC-90E3B6DA85D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "WebSocket\Server\Server.csproj", "{5FBAEABA-AF21-412B-A850-5A2460799135}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "src\WebSocket\Server\Server.csproj", "{5FBAEABA-AF21-412B-A850-5A2460799135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsDemo", "WebSocket\WsDemo\WsDemo.csproj", "{47DE7432-711B-4D6B-B6EF-42A934C4421B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "playground", "playground\playground.csproj", "{1677B1AF-DC7D-4C44-AFF3-7DE76206AC0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsDemo", "src\WebSocket\WsDemo\WsDemo.csproj", "{47DE7432-711B-4D6B-B6EF-42A934C4421B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetworkProgramming", "NetworkProgramming", "{CC8CE2D1-69F7-416D-8643-1AD1FF19D72A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udp", "NetworkProgramming\Udp\Udp.csproj", "{97E0C7C5-DDAB-468C-9E6A-B607A8CD5C68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udp", "src\NetworkProgramming\Udp\Udp.csproj", "{97E0C7C5-DDAB-468C-9E6A-B607A8CD5C68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{F58FCB4D-E5C2-454B-A981-0C999E018D61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,14 +50,14 @@ Global
 		{47DE7432-711B-4D6B-B6EF-42A934C4421B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47DE7432-711B-4D6B-B6EF-42A934C4421B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47DE7432-711B-4D6B-B6EF-42A934C4421B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1677B1AF-DC7D-4C44-AFF3-7DE76206AC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1677B1AF-DC7D-4C44-AFF3-7DE76206AC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1677B1AF-DC7D-4C44-AFF3-7DE76206AC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1677B1AF-DC7D-4C44-AFF3-7DE76206AC0C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97E0C7C5-DDAB-468C-9E6A-B607A8CD5C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97E0C7C5-DDAB-468C-9E6A-B607A8CD5C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E0C7C5-DDAB-468C-9E6A-B607A8CD5C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E0C7C5-DDAB-468C-9E6A-B607A8CD5C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58FCB4D-E5C2-454B-A981-0C999E018D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58FCB4D-E5C2-454B-A981-0C999E018D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58FCB4D-E5C2-454B-A981-0C999E018D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58FCB4D-E5C2-454B-A981-0C999E018D61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D2994AFB-0394-4E31-832F-DAFF4DDD7BE8} = {EF4F62A8-D04B-41E7-B68A-1EC5554DA924}
