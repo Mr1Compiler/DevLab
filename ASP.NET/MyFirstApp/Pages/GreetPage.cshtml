@@ -1,0 +1,19 @@
+@page
+@model MyFirstApp.Pages.GreetPage
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <div><h1>Welcome @Model.currentUser.Name</h1></div> <br/>
+    <div><h1>Your age is  @Model.currentUser.Age</h1></div>
+</div>
+</body>
+</html>

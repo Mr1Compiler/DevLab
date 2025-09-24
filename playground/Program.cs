@@ -1,6 +1,4 @@
-﻿using System.Net;
-using System.Net.Sockets;
-using Udp.Server;
+﻿using Udp.Server;
 using Udp.Client;
 
 namespace playground;
@@ -13,11 +11,13 @@ public static class Program
         {
             UdpServer udpServer = new UdpServer();
             udpServer.Connect();
+            udpServer.Connect();
         });
 
 
         while (true)
         {
+
             var msg = Console.ReadLine();
             Client client = new Client();
             client.Send(msg);
