@@ -2,6 +2,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\src\NetworkProgramming\Udp\Udp.csproj" />
+    <ProjectReference Include="..\src\DependencyInjection\Di\Di.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dumpify" Version="0.6.6" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -1,0 +1,13 @@
+/mnt/hdd/DevLab/src/DependencyInjection/Di/bin/Debug/net8.0/Di.deps.json
+/mnt/hdd/DevLab/src/DependencyInjection/Di/bin/Debug/net8.0/Di.dll
+/mnt/hdd/DevLab/src/DependencyInjection/Di/bin/Debug/net8.0/Di.pdb
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/Di.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/Di.AssemblyInfoInputs.cache
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/Di.AssemblyInfo.cs
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/Di.csproj.CoreCompileInputs.cache
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/Di.sourcelink.json
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/Di.dll
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/refint/Di.dll
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/Di.pdb
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/ref/Di.dll
+/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/Debug/net8.0/Di.csproj.AssemblyReference.cache

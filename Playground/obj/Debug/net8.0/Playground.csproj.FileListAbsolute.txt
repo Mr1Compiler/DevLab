@@ -17,3 +17,7 @@
 /mnt/hdd/DevLab/Playground/obj/Debug/net8.0/Playground.pdb
 /mnt/hdd/DevLab/Playground/obj/Debug/net8.0/Playground.genruntimeconfig.cache
 /mnt/hdd/DevLab/Playground/obj/Debug/net8.0/ref/Playground.dll
+/mnt/hdd/DevLab/Playground/bin/Debug/net8.0/Dumpify.dll
+/mnt/hdd/DevLab/Playground/bin/Debug/net8.0/Spectre.Console.dll
+/mnt/hdd/DevLab/Playground/bin/Debug/net8.0/Di.dll
+/mnt/hdd/DevLab/Playground/bin/Debug/net8.0/Di.pdb

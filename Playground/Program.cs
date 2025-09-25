@@ -1,20 +1,6 @@
-﻿using System;
-using System.Threading.Tasks;
-using Udp.Server;
-using Udp.Client;
+﻿using Di;
+using System;
 
 
-Task.Run(() =>
-{
-    UdpServer udpServer = new UdpServer();
-    udpServer.Connect();
-    udpServer.Connect();
-});
-
-
-while (true)
-{
-    var msg = Console.ReadLine();
-    Client client = new Client();
-    client.Send(msg);
-}
+PracticeDi practiceDi = new PracticeDi();
+practiceDi.Run();
