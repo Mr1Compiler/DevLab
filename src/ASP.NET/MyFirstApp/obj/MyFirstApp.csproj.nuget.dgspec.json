@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/hdd/DevLab/src/ASP.NET/MyFirstApp/MyFirstApp.csproj": {}
+    "/home/mr1compiler/Desktop/stuff/DevLab/src/ASP.NET/MyFirstApp/MyFirstApp.csproj": {}
   },
   "projects": {
-    "/mnt/hdd/DevLab/src/ASP.NET/MyFirstApp/MyFirstApp.csproj": {
+    "/home/mr1compiler/Desktop/stuff/DevLab/src/ASP.NET/MyFirstApp/MyFirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/hdd/DevLab/src/ASP.NET/MyFirstApp/MyFirstApp.csproj",
+        "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/src/ASP.NET/MyFirstApp/MyFirstApp.csproj",
         "projectName": "MyFirstApp",
-        "projectPath": "/mnt/hdd/DevLab/src/ASP.NET/MyFirstApp/MyFirstApp.csproj",
+        "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/ASP.NET/MyFirstApp/MyFirstApp.csproj",
         "packagesPath": "/home/mr1compiler/.nuget/packages/",
-        "outputPath": "/mnt/hdd/DevLab/src/ASP.NET/MyFirstApp/obj/",
+        "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/ASP.NET/MyFirstApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mr1compiler/.nuget/NuGet/NuGet.Config"

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/hdd/DevLab/src/WebSocket/WsDemo/WsDemo.csproj",
+      "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/src/WebSocket/WsDemo/WsDemo.csproj",
       "projectName": "WsDemo",
-      "projectPath": "/mnt/hdd/DevLab/src/WebSocket/WsDemo/WsDemo.csproj",
+      "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/WebSocket/WsDemo/WsDemo.csproj",
       "packagesPath": "/home/mr1compiler/.nuget/packages/",
-      "outputPath": "/mnt/hdd/DevLab/src/WebSocket/WsDemo/obj/",
+      "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/WebSocket/WsDemo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mr1compiler/.nuget/NuGet/NuGet.Config"

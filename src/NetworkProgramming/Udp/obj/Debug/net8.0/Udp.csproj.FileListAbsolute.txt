@@ -22,3 +22,15 @@
 /mnt/hdd/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/refint/Udp.dll
 /mnt/hdd/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/Udp.pdb
 /mnt/hdd/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/ref/Udp.dll
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/bin/Debug/net8.0/Udp.deps.json
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/bin/Debug/net8.0/Udp.dll
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/bin/Debug/net8.0/Udp.pdb
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/Udp.GeneratedMSBuildEditorConfig.editorconfig
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/Udp.AssemblyInfoInputs.cache
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/Udp.AssemblyInfo.cs
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/Udp.csproj.CoreCompileInputs.cache
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/Udp.sourcelink.json
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/Udp.dll
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/refint/Udp.dll
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/Udp.pdb
+/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/Debug/net8.0/ref/Udp.dll

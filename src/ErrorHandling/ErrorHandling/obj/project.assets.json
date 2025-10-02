@@ -127,11 +127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/hdd/DevLab/src/ErrorHandling/ErrorHandling/ErrorHandling.csproj",
+      "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/src/ErrorHandling/ErrorHandling/ErrorHandling.csproj",
       "projectName": "ErrorHandling",
-      "projectPath": "/mnt/hdd/DevLab/src/ErrorHandling/ErrorHandling/ErrorHandling.csproj",
+      "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/ErrorHandling/ErrorHandling/ErrorHandling.csproj",
       "packagesPath": "/home/mr1compiler/.nuget/packages/",
-      "outputPath": "/mnt/hdd/DevLab/src/ErrorHandling/ErrorHandling/obj/",
+      "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/ErrorHandling/ErrorHandling/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mr1compiler/.nuget/NuGet/NuGet.Config"

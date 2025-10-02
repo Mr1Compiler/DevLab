@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/hdd/DevLab/Playground/Playground.csproj": {}
+    "/home/mr1compiler/Desktop/stuff/DevLab/Playground/Playground.csproj": {}
   },
   "projects": {
-    "/mnt/hdd/DevLab/Playground/Playground.csproj": {
+    "/home/mr1compiler/Desktop/stuff/DevLab/Playground/Playground.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/hdd/DevLab/Playground/Playground.csproj",
+        "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/Playground/Playground.csproj",
         "projectName": "Playground",
-        "projectPath": "/mnt/hdd/DevLab/Playground/Playground.csproj",
+        "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/Playground/Playground.csproj",
         "packagesPath": "/home/mr1compiler/.nuget/packages/",
-        "outputPath": "/mnt/hdd/DevLab/Playground/obj/",
+        "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/Playground/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mr1compiler/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/mnt/hdd/DevLab/src/DependencyInjection/Di/Di.csproj": {
-                "projectPath": "/mnt/hdd/DevLab/src/DependencyInjection/Di/Di.csproj"
+              "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/Di.csproj": {
+                "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/Di.csproj"
               },
-              "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj": {
-                "projectPath": "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj"
+              "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj": {
+                "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "/mnt/hdd/DevLab/src/DependencyInjection/Di/Di.csproj": {
+    "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/Di.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/hdd/DevLab/src/DependencyInjection/Di/Di.csproj",
+        "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/Di.csproj",
         "projectName": "Di",
-        "projectPath": "/mnt/hdd/DevLab/src/DependencyInjection/Di/Di.csproj",
+        "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/Di.csproj",
         "packagesPath": "/home/mr1compiler/.nuget/packages/",
-        "outputPath": "/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/",
+        "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mr1compiler/.nuget/NuGet/NuGet.Config"
@@ -139,14 +139,14 @@
         }
       }
     },
-    "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj": {
+    "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj",
+        "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj",
         "projectName": "Udp",
-        "projectPath": "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj",
+        "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj",
         "packagesPath": "/home/mr1compiler/.nuget/packages/",
-        "outputPath": "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/obj/",
+        "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mr1compiler/.nuget/NuGet/NuGet.Config"

@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/hdd/DevLab/src/DependencyInjection/Di/Di.csproj",
+      "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/Di.csproj",
       "projectName": "Di",
-      "projectPath": "/mnt/hdd/DevLab/src/DependencyInjection/Di/Di.csproj",
+      "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/Di.csproj",
       "packagesPath": "/home/mr1compiler/.nuget/packages/",
-      "outputPath": "/mnt/hdd/DevLab/src/DependencyInjection/Di/obj/",
+      "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/DependencyInjection/Di/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mr1compiler/.nuget/NuGet/NuGet.Config"

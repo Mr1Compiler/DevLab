@@ -1,3 +1,4 @@
+using System.Security.AccessControl;
 using Dumpify;
 
 namespace Di;
@@ -9,15 +10,21 @@ public class PracticeDi
         // Just adding services to Dependencies
         // without creating instances of them (Register them)
         var container = new DependencyContainer();
-        container.AddDependency(typeof(ServiceConsumer));
-        container.AddDependency<HelloService>();
-        container.AddDependency<MessageService>();
+        container.AddTransient<ServiceConsumer>();
+        container.AddTransient<HelloService>();
+        container.AddSingleton<MessageService>();
 
         // Using resolver for getting the services
         var resolver = new DependencyResolver(container);
 
-        var service = resolver.GetService<ServiceConsumer>();
-        service.Print();
+        var service1 = resolver.GetService<ServiceConsumer>();
+        service1.Print();
+        
+        var service2 = resolver.GetService<ServiceConsumer>();
+        service2.Print();
+        
+        var service3 = resolver.GetService<ServiceConsumer>();
+        service3.Print();
     }
 }
 
@@ -39,7 +46,7 @@ public class DependencyResolver
     {
         var dependency = _container.GetDependency(type);
 
-        var constructors = dependency.GetConstructors().Single();
+        var constructors = dependency.Type.GetConstructors().Single();
         var parameters = constructors.GetParameters().ToArray();
         var parametersImplementation = new object[parameters.Length];
 
@@ -51,31 +58,78 @@ public class DependencyResolver
                 parametersImplementation[i] = GetService(parameters[i].ParameterType);
             }
 
-            return Activator.CreateInstance(dependency, parametersImplementation);
+            return CreateImplementation(dependency, t => Activator.CreateInstance(t, parametersImplementation));
         }
 
-        return Activator.CreateInstance(dependency); 
+        return CreateImplementation(dependency, t => Activator.CreateInstance(t));
+    }
+
+    public object CreateImplementation(Dependency dependency, Func<Type, object> factory)
+    {
+         if (dependency.Implemented)
+        {
+            return dependency.Implementation;
+        }
+
+        var implementation = factory(dependency.Type);
+
+        if (dependency.LifeTime == DependencyLifeTime.Singleton)
+        {
+            dependency.AddImplementation(implementation);
+        }
+
+        return implementation;
     }
 }
 
 public class DependencyContainer
 {
-    List<Type> _dependinces = new List<Type>();
+    private List<Dependency> _dependinces;
 
-    public void AddDependency(Type type)
+    public DependencyContainer()
     {
-        _dependinces.Add(type);
+        _dependinces = new List<Dependency>();
+    }
+
+    public void AddSingleton<T>()
+    {
+        _dependinces.Add(new Dependency(typeof(T), DependencyLifeTime.Singleton));
     }
     
-     public void AddDependency<T>()
+     public void AddTransient<T>()
     {
-        _dependinces.Add(typeof(T));
+        _dependinces.Add(new Dependency(typeof(T), DependencyLifeTime.Transient));
     }
 
-    public Type GetDependency(Type type)
+    public Dependency GetDependency(Type type)
     {
-        return _dependinces.First(x => x.Name == type.Name);
+        return _dependinces.First(x => x.Type.Name == type.Name);
     }
+}
+
+public class Dependency
+{
+    public Dependency(Type type, DependencyLifeTime lifeTime)
+    {
+        Type = type;
+        LifeTime = lifeTime;
+    }
+    public Type Type { get; set; }
+    public DependencyLifeTime LifeTime { get; set; }
+    public object Implementation { get; set; }
+    public bool Implemented { get; set; }
+
+    public void AddImplementation(object obj)
+    {
+        Implementation = obj;
+        Implemented = true;
+    }
+}
+
+public enum DependencyLifeTime
+{
+    Singleton = 0,
+    Transient = 1,
 }
 
 public class ServiceConsumer
@@ -96,22 +150,29 @@ public class ServiceConsumer
 public class HelloService
 {
     MessageService _message;
+    int _random;
     
     public HelloService(MessageService message)
     {
         _message = message;
+        _random = new Random().Next();
     }
     
     public void Print()
     {
-        $"Hello World {_message.Message()}".Dump();
+        $"Hello World #{_random} {_message.Message()}".Dump();
     }
 }
 
 public class MessageService
 {
+    int _random;
+    public MessageService()
+    {
+        _random = new Random().Next();
+    }
     public string Message()
     {
-        return "Yo";
+        return $"Yo #{_random}";
     }
 }

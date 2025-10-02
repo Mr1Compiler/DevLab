@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj": {}
+    "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj": {}
   },
   "projects": {
-    "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj": {
+    "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj",
+        "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj",
         "projectName": "Udp",
-        "projectPath": "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/Udp.csproj",
+        "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/Udp.csproj",
         "packagesPath": "/home/mr1compiler/.nuget/packages/",
-        "outputPath": "/mnt/hdd/DevLab/src/NetworkProgramming/Udp/obj/",
+        "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/NetworkProgramming/Udp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mr1compiler/.nuget/NuGet/NuGet.Config"

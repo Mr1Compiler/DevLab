@@ -9,15 +9,15 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyFirstApp
 build_property.RootNamespace = MyFirstApp
-build_property.ProjectDir = /mnt/hdd/DevLab/src/ASP.NET/MyFirstApp/
+build_property.ProjectDir = /home/mr1compiler/Desktop/stuff/DevLab/src/ASP.NET/MyFirstApp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /mnt/hdd/DevLab/src/ASP.NET/MyFirstApp
+build_property.MSBuildProjectDirectory = /home/mr1compiler/Desktop/stuff/DevLab/src/ASP.NET/MyFirstApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/mnt/hdd/DevLab/src/ASP.NET/MyFirstApp/Pages/GreetPage.cshtml]
+[/home/mr1compiler/Desktop/stuff/DevLab/src/ASP.NET/MyFirstApp/Pages/GreetPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JlZXRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

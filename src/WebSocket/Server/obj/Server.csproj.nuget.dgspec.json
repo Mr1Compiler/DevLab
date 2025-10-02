@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/hdd/DevLab/src/WebSocket/Server/Server.csproj": {}
+    "/home/mr1compiler/Desktop/stuff/DevLab/src/WebSocket/Server/Server.csproj": {}
   },
   "projects": {
-    "/mnt/hdd/DevLab/src/WebSocket/Server/Server.csproj": {
+    "/home/mr1compiler/Desktop/stuff/DevLab/src/WebSocket/Server/Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/hdd/DevLab/src/WebSocket/Server/Server.csproj",
+        "projectUniqueName": "/home/mr1compiler/Desktop/stuff/DevLab/src/WebSocket/Server/Server.csproj",
         "projectName": "Server",
-        "projectPath": "/mnt/hdd/DevLab/src/WebSocket/Server/Server.csproj",
+        "projectPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/WebSocket/Server/Server.csproj",
         "packagesPath": "/home/mr1compiler/.nuget/packages/",
-        "outputPath": "/mnt/hdd/DevLab/src/WebSocket/Server/obj/",
+        "outputPath": "/home/mr1compiler/Desktop/stuff/DevLab/src/WebSocket/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mr1compiler/.nuget/NuGet/NuGet.Config"
