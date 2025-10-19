@@ -1,39 +1,35 @@
-using System.Text.Json;
-
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyCors", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:5288")
+            // .WithMethods("GET", "POST")
+            .WithHeaders("my-a", "my-b");
+        // .WithExposedHeaders("X-Custom-Header")                    
+        // .AllowCredentials();                                          
+    });
+});
 
 var app = builder.Build();
 
-app.Use(async (HttpContext context, RequestDelegate next) =>
+// Custom middleware to accept cors requests with custom headers
+app.Use(async (ctx, next) =>
 {
-    if (context.Request.ContentType?.Contains("application/json") == true)
+    ctx.Response.Headers["Access-Control-Allow-Origin"] = "http://localhost:5288";
+
+    if (HttpMethods.IsOptions(ctx.Request.Method))
     {
-        context.Request.EnableBuffering();
-        using var reader = new StreamReader(context.Request.Body, leaveOpen: true);
-        var body = await reader.ReadToEndAsync();
-        context.Request.Body.Position = 0;
-
-        var dict = JsonSerializer.Deserialize<Dictionary<string, object>>(body);
-
-        
-        if (dict != null && dict.TryGetValue("Name", out var value) && value?.ToString() == "Ayman") 
-        {
-            context.Items["Name"] = value;
-            Console.WriteLine($"The name is {value}");
-            await context.Response.WriteAsync("Welcome Ayman");
-            return;
-        }
-
-        context.Response.StatusCode = 400;
-        await context.Response.WriteAsync("Invalid name");
-        return;
+        ctx.Response.Headers["Access-Control-Allow-headers"] = "my-a, my-b";
+        await ctx.Response.CompleteAsync();
     }
-    await next(context); 
+
+    await next();
 });
 
-app.MapPost("/test", async (context) =>
-{
-    await context.Response.WriteAsync("Only for accessing the middleware when hit");
-});
+app.MapGet("/", () => "Hello Ayman");
 
+app.UseCors("MyCors");
 app.Run();
