@@ -3,6 +3,9 @@
   <ItemGroup>
     <ProjectReference Include="..\src\NetworkProgramming\Udp\Udp.csproj" />
     <ProjectReference Include="..\src\DependencyInjection\Di\Di.csproj" />
+    <ProjectReference Include="..\src\UnitTest\NetworkUtility.Tests\NetworkUtility.Tests.csproj" />
+    <ProjectReference Include="..\src\UnitTest\NetworkUtility\NetworkUtility.csproj" />
+    <ProjectReference Include="..\src\UnitTest\UnitTest.csproj" />
   </ItemGroup>
 
   <ItemGroup>
